@@ -1,14 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS適用ページ</title>
-    <link rel="stylesheet" href="e2a.css">
+    <title>浦安市ガイド</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>メインの見出し</h1>
-    <p>このテキストは e2a.css のスタイルが適用されます。</p>
+    <header>
+        <h1>浦安市ガイド</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">浦安市について</a></li>
+                <li><a href="#spot">観光スポット</a></li>
+                <li><a href="#food">グルメ</a></li>
+                <li><a href="#access">アクセス</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>東京湾と夢の街が広がるまち、浦安</h2>
+        <p>豊かな海と新しい街並み、そして東京ディズニーリゾートを備えた魅力あふれる都市です。</p>
+    </section>
+
+    <section id="about" class="content">
+        <h2>浦安市について</h2>
+        <p>浦安市は千葉県北西部に位置し、東京湾に面した美しい都市です。新浦安エリアの洗練された街並みや、堀江などの昔ながらの風情ある地域が共存しています。</p>
+    </section>
+
+    <section id="spot" class="content">
+        <h2>観光スポット</h2>
+        <ul>
+            <li><strong>東京ディズニーリゾート</strong> — 世界屈指のテーマパーク</li>
+            <li><strong>浦安魚市場跡地エリア</strong> — 地元グルメの宝庫</li>
+            <li><strong>三番瀬環境観察公園</strong> — 鳥や干潟が楽しめる自然スポット</li>
+            <li><strong>総合公園（海沿い）</strong> — 海を感じられる広大な公園</li>
+        </ul>
+    </section>
+
+    <section id="food" class="content">
+        <h2>グルメ</h2>
+        <p>浦安市には新鮮な海産物や個性的な飲食店が揃っています。</p>
+        <ul>
+            <li>海鮮丼・寿司</li>
+            <li>ディズニー周辺ホテルのレストラン</li>
+            <li>地元食堂の昔ながらの味</li>
+        </ul>
+    </section>
+
+    <section id="access" class="content">
+        <h2>アクセス</h2>
+        <p>
+            JR京葉線「新浦安駅」「舞浜駅」から東京都心へアクセスが良く、  
+            東京駅からは約20分で到着します。
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2025 浦安市ガイド</p>
+    </footer>
 </body>
 </html>
